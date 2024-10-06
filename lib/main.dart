@@ -1,4 +1,5 @@
-import 'package:firstproject/screens/home.dart';
+//import 'package:firstproject/views/home.dart';
+//import 'package:firstproject/views/screens/auth/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class Myapp extends StatelessWidget {
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
-      body: const Home(),
+      //body: WelcomePage(),
     ),
   );
   }
